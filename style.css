@@ -1,0 +1,139 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  color: #4a90e2;
+}
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
+.skills-list li {
+  background: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* Project Table */
+.project-table {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-table th, .project-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.project-table th {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Contact */
+.contact-table {
+  width: 70%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contact-table th, .contact-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.contact-table th {
+  width: 30%;
+  background-color: #4a90e2;
+  color: white;
+  text-align: right;
+  padding-right: 1.5rem;
+}
+
+.contact-table a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.contact-table a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
